@@ -56,7 +56,7 @@ x=2023;
 
   /*
     let str = prompt ('Введите шестизначное число');
-    if ((str[0] + str[1] + str[2]) == (str[3] + str[4] + str[5])) {
+    if ((+str[0] + +str[1] + +str[2]) == (+str[3] + +str[4] + +str[5])) {
         console.log('да,молодец');
     } else  {
         console.log ('нет');
@@ -214,7 +214,7 @@ document.write (`<br>Введенное число ` + days + `<br>`);
         console.log ('Октябрь');
     } else if (months >304 && months <= 334) {
         console.log ('Ноябрь');
-    } else { (months >334 && months <= 365) 
+    } else {
         console.log ('Декабрь');
     } 
 
@@ -227,7 +227,7 @@ document.write (`<br>Введенное число ` + days + `<br>`);
     } else if  (months > 151 && months <= 243) {
         console.log('лето');
         alert ('лето');
-    } else { (months > 243 && months <= 334) 
+    } else { 
             console.log ('осень');
             alert ('осень');
     }
